@@ -1,0 +1,283 @@
+1530260938918	geckodriver	INFO	geckodriver 0.20.1
+1530260938927	geckodriver	INFO	Listening on 127.0.0.1:56273
+1530260941951	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\rust_mozprofile.2RoaBwi1lYlq"
+1530260945834	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3484] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530260957231	Marionette	INFO	Listening on port 56296
+1530260957237	Marionette	INFO	Listening on port 56296
+1530260957263	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530260957290	Marionette	DEBUG	loaded listener.js
+1530260957335	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1530260958354	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1530260958355	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1530260959161	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1530260959510	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyt&json=1&p=3&sid=26744_1421_21119_26350_22160&req=2&csor=3&pwd=py&cb=jQuery110206314587194723008_1530260958647&_=1530260958650, line 1: TypeError: jQuery110206314587194723008_1530260958647 is not a function
+[Parent 3484] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11700] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11700] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530261068665	geckodriver	INFO	geckodriver 0.20.1
+1530261068674	geckodriver	INFO	Listening on 127.0.0.1:56455
+1530261071695	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\rust_mozprofile.I62pkaa5IFfs"
+1530261076979	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+1530261085159	Marionette	INFO	Listening on port 56473
+1530261085161	Marionette	INFO	Listening on port 56473
+1530261086562	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530261086590	Marionette	DEBUG	loaded listener.js
+1530261086672	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1530261089162	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1530261089162	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1530261090820	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1530261091514	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=py&json=1&p=3&sid=1449_21085_26433&req=2&csor=2&pwd=p&cb=jQuery110207591176399961577_1530261090252&_=1530261090254, line 1: TypeError: jQuery110207591176399961577_1530261090252 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=1449_21085_26433&req=2&csor=1&cb=jQuery110207591176399961577_1530261090252&_=1530261090253, line 1: TypeError: jQuery110207591176399961577_1530261090252 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=1449_21085_26433&req=2&csor=5&pwd=pyth&cb=jQuery110207591176399961577_1530261090252&_=1530261090257, line 1: TypeError: jQuery110207591176399961577_1530261090252 is not a function
+[Child 10180] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10180] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530261152609	geckodriver	INFO	geckodriver 0.20.1
+1530261152618	geckodriver	INFO	Listening on 127.0.0.1:56588
+1530261155631	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\rust_mozprofile.6lDgilqf4QIE"
+1530261159287	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11064] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11436] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530261168303	Marionette	INFO	Listening on port 56604
+1530261168308	Marionette	INFO	Listening on port 56604
+1530261168314	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530261168342	Marionette	DEBUG	loaded listener.js
+1530261168374	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1530261170347	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1530261170347	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1530261171532	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1530261171726	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=26522_1440_21099&req=2&csor=4&pwd=pyt&cb=jQuery110205729878576246614_1530261170973&_=1530261170978, line 1: TypeError: jQuery110205729878576246614_1530261170973 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyt&json=1&p=3&sid=26522_1440_21099&req=2&csor=3&pwd=py&cb=jQuery110205729878576246614_1530261170973&_=1530261170977, line 1: TypeError: jQuery110205729878576246614_1530261170973 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=py&json=1&p=3&sid=26522_1440_21099&req=2&csor=2&pwd=p&cb=jQuery110205729878576246614_1530261170973&_=1530261170976, line 1: TypeError: jQuery110205729878576246614_1530261170973 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=26522_1440_21099&req=2&csor=5&pwd=pyth&cb=jQuery110205729878576246614_1530261170973&_=1530261170979, line 1: TypeError: jQuery110205729878576246614_1530261170973 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=26522_1440_21099&req=2&csor=1&cb=jQuery110205729878576246614_1530261170973&_=1530261170975, line 1: TypeError: jQuery110205729878576246614_1530261170973 is not a function
+1530261172115	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=26522_1440_21099&req=2&csor=6&pwd=pytho&cb=jQuery110205729878576246614_1530261170973&_=1530261170980, line 1: TypeError: jQuery110205729878576246614_1530261170973 is not a function
+1530261174117	Marionette	INFO	New connections will no longer be accepted
+1530261174316	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 11064] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530261500148	geckodriver	INFO	geckodriver 0.20.1
+1530261500156	geckodriver	INFO	Listening on 127.0.0.1:56765
+1530261503177	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\rust_mozprofile.2wQ75zuXWAWd"
+1530261506009	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4796] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530261515881	Marionette	INFO	Listening on port 56780
+1530261515888	Marionette	INFO	Listening on port 56780
+1530261516946	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530261516975	Marionette	DEBUG	loaded listener.js
+1530261517006	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1530261518721	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1530261518721	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1530261519809	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1530261520003	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyt&json=1&p=3&sid=1448_21078_18559_26350&req=2&csor=3&pwd=py&cb=jQuery11020773819722141793_1530261519269&_=1530261519273, line 1: TypeError: jQuery11020773819722141793_1530261519269 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=1448_21078_18559_26350&req=2&csor=1&cb=jQuery11020773819722141793_1530261519269&_=1530261519271, line 1: TypeError: jQuery11020773819722141793_1530261519269 is not a function
+1530261520376	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=py&json=1&p=3&sid=1448_21078_18559_26350&req=2&csor=2&pwd=p&cb=jQuery11020773819722141793_1530261519269&_=1530261519272, line 1: TypeError: jQuery11020773819722141793_1530261519269 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=1448_21078_18559_26350&req=2&csor=5&pwd=pyth&cb=jQuery11020773819722141793_1530261519269&_=1530261519275, line 1: TypeError: jQuery11020773819722141793_1530261519269 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=1448_21078_18559_26350&req=2&csor=6&pwd=pytho&cb=jQuery11020773819722141793_1530261519269&_=1530261519276, line 1: TypeError: jQuery11020773819722141793_1530261519269 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=1448_21078_18559_26350&req=2&csor=4&pwd=pyt&cb=jQuery11020773819722141793_1530261519269&_=1530261519274, line 1: TypeError: jQuery11020773819722141793_1530261519269 is not a function
+1530261522380	Marionette	INFO	New connections will no longer be accepted
+1530261522555	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 4796] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10592] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10592] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530262730063	geckodriver	INFO	geckodriver 0.20.1
+1530262730071	geckodriver	INFO	Listening on 127.0.0.1:57215
+1530262733094	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\rust_mozprofile.Dc1HqsMPJArw"
+1530262735024	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11464] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11464] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530262740310	Marionette	INFO	Listening on port 57223
+1530262740317	Marionette	INFO	Listening on port 57223
+1530262741088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530262741115	Marionette	DEBUG	loaded listener.js
+1530262741146	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1530262742151	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1530262742151	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1530262743618	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://login.rosewholesale.com/m-users-a-sign.htm, line 16: unreachable code after return statement
+1530262745361	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530262745527	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f15d241c1eb845c&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530262745528	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f15d241c1eb845c&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530262745842	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530262746108	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530262746117	Marionette	DEBUG	Received DOM event "pagehide" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#cb=f19b6bfd857ae5a&domain=login.rosewholesale.com&origin=https%3A%2F%2Flogin.rosewholesale.com%2Ff15d241c1eb845c&relation=parent&error=unknown_user"
+1530262746118	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1530262746213	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://user.rosewholesale.com/m-users-a-order_list.htm, line 16: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+1530264028933	geckodriver	INFO	geckodriver 0.20.1
+1530264028941	geckodriver	INFO	Listening on 127.0.0.1:57677
+1530264031954	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\rust_mozprofile.j86CRSUWh0MS"
+1530264035236	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12204] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12204] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530264045019	Marionette	INFO	Listening on port 57693
+1530264045036	Marionette	INFO	Listening on port 57693
+1530264045760	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530264045792	Marionette	DEBUG	loaded listener.js
+1530264045811	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1530264047328	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1530264047328	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1530264049312	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://login.rosewholesale.com/m-users-a-sign.htm, line 16: unreachable code after return statement
+1530264051204	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530264051337	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f26c2cc49c515ba&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530264051338	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f26c2cc49c515ba&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530264051367	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530264051687	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530264051697	Marionette	DEBUG	Received DOM event "pagehide" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#cb=f3778564c6a808e&domain=login.rosewholesale.com&origin=https%3A%2F%2Flogin.rosewholesale.com%2Ff26c2cc49c515ba&relation=parent&error=unknown_user"
+1530264051698	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1530264051751	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://user.rosewholesale.com/m-users-a-order_list.htm, line 16: unreachable code after return statement
+1530264054757	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 539: TypeError: this.tablesData[table] is undefined
+1530264055595	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 10912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Corrupt JPEG data: 13 extraneous bytes before marker 0xdb
+Corrupt JPEG data: 13 extraneous bytes before marker 0xdb
+[Child 8716] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x920027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 8716] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530265461114	geckodriver	INFO	geckodriver 0.20.1
+1530265461121	geckodriver	INFO	Listening on 127.0.0.1:58001
+1530265464143	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\rust_mozprofile.mGuEKbGvw2bq"
+1530265465977	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10356] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11988] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530265477026	Marionette	INFO	Listening on port 58013
+1530265477945	Marionette	INFO	Listening on port 58013
+1530265478330	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530265478362	Marionette	DEBUG	loaded listener.js
+1530265478395	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1530265480141	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1530265480141	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1530265480818	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://login.rosewholesale.com/m-users-a-sign.htm, line 16: unreachable code after return statement
+1530265483241	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265483431	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f10c36e7277074e&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530265483434	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f10c36e7277074e&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530265483597	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265483887	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265483896	Marionette	DEBUG	Received DOM event "pagehide" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#cb=f35370f7eb13dc&domain=login.rosewholesale.com&origin=https%3A%2F%2Flogin.rosewholesale.com%2Ff10c36e7277074e&relation=parent&error=unknown_user"
+1530265483897	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1530265483994	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://user.rosewholesale.com/m-users-a-order_list.htm, line 16: unreachable code after return statement
+1530265487001	Marionette	INFO	New connections will no longer be accepted
+1530265487595	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 10356] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Corrupt JPEG data: 13 extraneous bytes before marker 0xdb
+Corrupt JPEG data: 13 extraneous bytes before marker 0xdb
+[Child 7356] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530265927779	geckodriver	INFO	geckodriver 0.20.1
+1530265927788	geckodriver	INFO	Listening on 127.0.0.1:58205
+1530265930810	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\rust_mozprofile.f0UCJ3UzazMD"
+1530265933572	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9596] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7040] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7040] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530265943189	Marionette	INFO	Listening on port 58220
+1530265943194	Marionette	INFO	Listening on port 58220
+1530265944408	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530265944437	Marionette	DEBUG	loaded listener.js
+1530265944471	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1530265946618	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1530265946618	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1530265947506	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://login.rosewholesale.com/m-users-a-sign.htm, line 16: unreachable code after return statement
+1530265948980	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265948984	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265948985	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265948987	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265950486	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265950489	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265950489	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265950492	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265951259	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://connect.facebook.net/log/fbevents_telemetry/"
+1530265951260	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1530265951470	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://connect.facebook.net/log/fbevents_telemetry/"
+1530265951471	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://connect.facebook.net/log/fbevents_telemetry/"
+1530265951472	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1530265951473	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1530265951737	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://connect.facebook.net/log/fbevents_telemetry/"
+1530265951738	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1530265951768	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265951936	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f2b38077bc2bf46&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530265951937	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f2b38077bc2bf46&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530265951961	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265952143	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265952149	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265952228	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530265952237	Marionette	DEBUG	Received DOM event "pagehide" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#cb=f13d2955792aba&domain=login.rosewholesale.com&origin=https%3A%2F%2Flogin.rosewholesale.com%2Ff2b38077bc2bf46&relation=parent&error=unknown_user"
+1530265952238	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967316"
+1530265952340	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://user.rosewholesale.com/m-users-a-order_list.htm, line 16: unreachable code after return statement
+1530265955347	Marionette	INFO	New connections will no longer be accepted
+1530265955544	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Corrupt JPEG data: 13 extraneous bytes before marker 0xdb
+Corrupt JPEG data: 13 extraneous bytes before marker 0xdb
+[Child 1776] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530266018703	geckodriver	INFO	geckodriver 0.20.1
+1530266018711	geckodriver	INFO	Listening on 127.0.0.1:58380
+1530266021717	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\CHENJI~1\\AppData\\Local\\Temp\\rust_mozprofile.MVdtWPRwaGBn"
+1530266024770	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7612] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530266036724	Marionette	INFO	Listening on port 58397
+1530266036733	Marionette	INFO	Listening on port 58397
+1530266037703	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530266037734	Marionette	DEBUG	loaded listener.js
+1530266037767	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1530266038149	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1530266038149	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1530266038996	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+Unable to read VR Path Registry from C:\Users\chenjingjian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://login.rosewholesale.com/m-users-a-sign.htm, line 16: unreachable code after return statement
+1530266040947	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530266041143	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f1393fd75ed1712&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530266041144	Marionette	DEBUG	Received DOM event "pageshow" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#channel=f1393fd75ed1712&origin=https%3A%2F%2Flogin.rosewholesale.com"
+1530266041173	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530266041445	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.rosewholesale.com/m-users-a-sign.htm"
+1530266041462	Marionette	DEBUG	Received DOM event "pagehide" for "https://staticxx.facebook.com/connect/xd_arbiter/r/xaOI6zd9HW9.js?version=42#cb=f3e1e52c488a07e&domain=login.rosewholesale.com&origin=https%3A%2F%2Flogin.rosewholesale.com%2Ff1393fd75ed1712&relation=parent&error=unknown_user"
+1530266041463	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1530266041559	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://user.rosewholesale.com/m-users-a-order_list.htm, line 16: unreachable code after return statement
+1530266044565	Marionette	INFO	New connections will no longer be accepted
+1530266045200	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Corrupt JPEG data: 13 extraneous bytes before marker 0xdb
+Corrupt JPEG data: 13 extraneous bytes before marker 0xdb
+[Child 4772] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

@@ -1,0 +1,62 @@
+﻿[   INFO] [2018-07-04 18:43:18,465] [9484] [HTMLReport.py(101)] - 预计并发线程数：5
+[   INFO] [2018-07-04 18:43:18,466] [10604] [Result.py(48)] - 开始测试： test_d (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,467] [12964] [Result.py(48)] - 开始测试： test_c (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,467] [10604] [Result.py(106)] - 测试执行通过： test_d (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,467] [8900] [Result.py(48)] - 开始测试： test_a (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,468] [12964] [Result.py(106)] - 测试执行通过： test_c (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,468] [10604] [Result.py(59)] - 测试结束： test_d (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,468] [10208] [Result.py(48)] - 开始测试： test_b (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,468] [8900] [Result.py(106)] - 测试执行通过： test_a (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,469] [12964] [Result.py(59)] - 测试结束： test_c (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,469] [10604] [Result.py(61)] - 耗时： 0.0011827637920940564
+[   INFO] [2018-07-04 18:43:18,469] [10208] [Result.py(106)] - 测试执行通过： test_b (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,469] [8900] [Result.py(59)] - 测试结束： test_a (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,470] [12964] [Result.py(61)] - 耗时： 0.0010489931109703187
+[   INFO] [2018-07-04 18:43:18,470] [10208] [Result.py(59)] - 测试结束： test_b (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:43:18,470] [8900] [Result.py(61)] - 耗时： 0.0008764064768106762
+[   INFO] [2018-07-04 18:43:18,470] [10208] [Result.py(61)] - 耗时： 0.000891162954824326
+[   INFO] [2018-07-04 18:43:18,471] [9484] [HTMLReport.py(130)] - 
+Pass	test_d (test_case.tests_report.Test_report.TestReport)
+Pass	test_c (test_case.tests_report.Test_report.TestReport)
+Pass	test_a (test_case.tests_report.Test_report.TestReport)
+Pass	test_b (test_case.tests_report.Test_report.TestReport)
+
+[   INFO] [2018-07-04 18:43:18,472] [9484] [HTMLReport.py(151)] - 
+测试结束！
+运行时间: 0:00:00.006000
+共计执行用例数量：4
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：0
+[   INFO] [2018-07-04 18:45:29,914] [7096] [HTMLReport.py(101)] - 预计并发线程数：5
+[   INFO] [2018-07-04 18:45:29,914] [7984] [Result.py(48)] - 开始测试： test_d (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,915] [7984] [Result.py(106)] - 测试执行通过： test_d (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,915] [7984] [Result.py(59)] - 测试结束： test_d (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,915] [7984] [Result.py(61)] - 耗时： 0.0002592007442397607
+[   INFO] [2018-07-04 18:45:29,915] [1908] [Result.py(48)] - 开始测试： test_b (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,916] [1908] [Result.py(106)] - 测试执行通过： test_b (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,916] [1908] [Result.py(59)] - 测试结束： test_b (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,916] [1908] [Result.py(61)] - 耗时： 0.00022295113520622977
+[   INFO] [2018-07-04 18:45:29,917] [7984] [Result.py(48)] - 开始测试： test_a (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,917] [7984] [Result.py(106)] - 测试执行通过： test_a (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,917] [1908] [Result.py(48)] - 开始测试： test_c (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,917] [7984] [Result.py(59)] - 测试结束： test_a (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,917] [1908] [Result.py(106)] - 测试执行通过： test_c (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,918] [7984] [Result.py(61)] - 耗时： 0.00026786215524777276
+[   INFO] [2018-07-04 18:45:29,918] [1908] [Result.py(59)] - 测试结束： test_c (test_case.tests_report.Test_report.TestReport)
+[   INFO] [2018-07-04 18:45:29,918] [1908] [Result.py(61)] - 耗时： 0.00035447626532789057
+[   INFO] [2018-07-04 18:45:29,918] [7096] [HTMLReport.py(130)] - 
+Pass	test_d (test_case.tests_report.Test_report.TestReport)
+Pass	test_b (test_case.tests_report.Test_report.TestReport)
+Pass	test_a (test_case.tests_report.Test_report.TestReport)
+Pass	test_c (test_case.tests_report.Test_report.TestReport)
+
+[   INFO] [2018-07-04 18:45:29,919] [7096] [HTMLReport.py(151)] - 
+测试结束！
+运行时间: 0:00:00.004000
+共计执行用例数量：4
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：0

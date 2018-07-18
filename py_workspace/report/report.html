@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>测试报告</title>
+  <meta name="generator" content="HTMLReport 刘士 1.5.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <style type="text/css" media="screen">
+  body {
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  pre {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: auto;
+    white-space: pre-wrap
+  }
+
+  h1 {
+    font-size: 16pt;
+    color: gray
+  }
+
+  .heading {
+    margin-top: 0;
+    margin-bottom: 1ex
+  }
+
+  .heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0
+  }
+
+  .heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex
+  }
+
+  a.popup_link:hover {
+    color: red
+  }
+
+  .popup_window {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    background-color: #E6E6D6;
+    text-align: left;
+    font-size: 13px
+  }
+
+  #show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex
+  }
+
+  #result_table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #777
+  }
+
+  #header_row {
+    color: #fff;
+    background-color: #777
+  }
+
+  #result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+    min-width: 70px;
+    width: 100%
+  }
+  
+  #result_table td:nth-child(n+2) {
+    text-align: center
+  }
+
+  #total_row {
+    font-weight: bold
+  }
+
+  .passClass,
+  .failClass,
+  .errorClass,
+  .skipClass {
+    font-weight: bold
+  }
+
+  .passCase {
+    background-color: #97cc64
+  }
+
+  .failCase {
+    background-color: #fd5a3e
+  }
+
+  .errorCase {
+    background-color: #ffd050
+  }
+
+  .skipCase {
+    background-color: #aaa
+  }
+
+  .hiddenRow {
+    display: none
+  }
+
+  .testcase {
+    margin-left: 2em
+  }
+
+  #popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none
+  }
+
+  #popup .bg {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%
+  }
+
+  @media \0screen\,screen\9 {
+    #popup .bg {
+      background-color: #000;
+      filter: Alpha(opacity=50);
+      position: static
+    }
+    #popup .bg img {
+      position: relative
+    }
+  }
+
+  #popup img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  img.pic {
+    width: 500px;
+    cursor: pointer;
+  }
+
+  #wrapper {
+    margin: 0 auto;
+    border-top: solid 2px #666;
+  }
+
+  #wrapper .lang-en {
+    display: none;
+  }
+
+  #wrapper.lang-cn p.lang-cn {
+    display: block;
+  }
+
+  #wrapper.lang-cn span.lang-cn {
+    display: inline;
+  }
+
+  #wrapper.lang-cn .lang-en {
+    display: none;
+  }
+
+  #wrapper.lang-en .lang-cn {
+    display: none;
+  }
+
+  #wrapper.lang-en p.lang-en {
+    display: block;
+  }
+
+  #wrapper.lang-en span.lang-en {
+    display: inline;
+  }
+
+  #lang ul {
+    float: right;
+    margin: 0;
+    padding: 2px 10px 4px 10px;
+    background: #666;
+    border-radius: 0 0 4px 4px;
+    list-style: none;
+  }
+
+  #lang li {
+    margin: 0;
+    float: left;
+    padding: 0 5px;
+  }
+
+  #lang li a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-indent: -4em;
+    overflow: hidden;
+    background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAHiSURBVHja1Ja/jtNAEMZ/Y2/icBdxXAMSEu/A1dBR0NJQ8CS8AQ0tb4CQgEegPgQFOh7ixJUX4vgSx96ZoUgOO3+KRDgFX7Or0Wg+f7PzeVfcnUMi4cA4OIEAARgAvY5r10AZgOGvl69Gkm4Xk9w3fJTg9f4MDz9+OA3AsSTC4OmThaQE3Bp9w+eRmy+hie2I8us3gOMABFNFkjlW5PTPIvOLAO7YVMjfC/Sd4YuK4nOGuyMiABv7v6pP7mKmACEAeK1YPuPoWU52FgkPUiaf+ngFDjCD+Q/Fproo1vrSbUPuvR4eF7kBwDRi4ynlzxkyUMrvKTZabbrPFb9Jd2qPh7BK4DGiRYFeTJmdC8nAsVKaUes72eOK6Xm2G0GaYhpXCTzPsXEBgOZN8unrktHbAddvAKrdCESwqmoItI74eILlkw0bjt4Zltdg+5hL8NhSYLGmurrCxuPN7Mv951+LAh1kLQWxBlUw68bDGtEqaStQiB0SRMWlbh1yXWPu+MIc/wzTiC0dslBQR0TArfWPwJdr21KyttLKaeJijvmaD0gTMF/z57pPt8W37E1xaylwU0iE5OhON2fgjreMVmuMXC/ntus7QYAT4BFwr+Piv4HL2xstu21Xh4jAXP77V8WfAQAixA0rudAk0AAAAABJRU5ErkJggg==") no-repeat 50% 50%;
+  }
+
+  #lang li a#lang-en {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAIWSURBVHja1JY/SBthGIefu1xqS6K20KFDy0kopUiHmphIByUZotRAIZOTWZzFpYtbB0uh6KJTIdQhi9pBSwmmCOpgoUSKFItTh4AU6tCr16Rn5P58XZocDrlYuAz9wfHAcbzv9/2+932/k4QQdFIyHVbHE0iAAlwFgj7HNoG6AoRzudc/A4F/28yL2l7bb269yd9QgJAsS8zMjFIufyWRuHspXqtbnsHrH8oAIQlQJyfzlaGhCNFohJ2dI1Kp/iZ3d49IJvsvvJckmJ197JlACIEsy30KgGUJBgcjFIufSacfsLnpza2tL/x4+qx15fR0Uz84hL8HjG1blEqHJJP9bGx8IpMZ8CSAMIzWq1cUhO24CSzLYWTkPisrH8lm46yuenN9fZ+br156WmRZFgQLjR3YrK2VyWSiFAp7TEw88iTAyZNca4t6e6h/P3EbzTRtxscfks9vk83G27JaPcOuVls/v6o4pltlajo9L1KpebG8vC9isbm2jMXmRDsZhiEAVWn4NTU1ysJCkenpMRYXS55cWnrPcSThUUVhzrquNEeFOjz8vOI4CrXa+aU7+d3p29YJusMYwQD3Drb7AFRd14Xf0nXdtehbfAxdkhG13/5M0HCImiTcPhC2BVIAHMefOWrbCNxYqqZpvlukaVrTIrNye4CK1JH7xpSAXuAOcN3n4KfAceNG62qch4+ygHPpv/+r+DMAXV79BpyNnBoAAAAASUVORK5CYII=");
+  }
+</style>
+  <script language="javascript" type="text/javascript">
+output_list = Array();
+function showCase(level) {
+  trs = document.getElementsByTagName("tr");
+  for (var i = 0; i < trs.length; i++) {
+    tr = trs[i];
+    id = tr.id;
+    if (id.substr(0, 2) === "st") {
+      if (level === 4 || level === 3) {
+        tr.className = "";
+      } else {
+        tr.className = "hiddenRow";
+      }
+    }
+    if (id.substr(0, 2) === "ft") {
+      if (level === 4 || level === 2) {
+        tr.className = "";
+      } else {
+        tr.className = "hiddenRow";
+      }
+    }
+    if (id.substr(0, 2) === "pt") {
+      if (level === 4 || level === 1) {
+        tr.className = "";
+      } else {
+        tr.className = "hiddenRow";
+      }
+    }
+    if (id.substr(0, 2) === "et") {
+      if (level === 4 || level === 5 || level === 2) {
+        tr.className = "";
+      } else {
+        tr.className = "hiddenRow";
+      }
+    }
+    if (id.substr(0, 4) === "div_") { tr.className = "hiddenRow"; }
+  }
+}
+
+function showClassDetail(cid, count) {
+  var id_list = Array(count);
+  var toHide = 1;
+  for (var i = 0; i < count; i++) {
+    tid0 = "t" + cid.substr(1) + "." + (i + 1);
+    tid = "f" + tid0;
+    tr = document.getElementById(tid);
+    if (!tr) {
+      tid = "p" + tid0;
+      tr = document.getElementById(tid);
+      if (!tr) {
+        tid = "e" + tid0;
+        tr = document.getElementById(tid);
+        if (tr === null) {
+          tid = "s" + tid0;
+          tr = document.getElementById(tid);
+        }
+      }
+    }
+    id_list[i] = tid;
+    if (tr.className) {
+      toHide = 0;
+    }
+  }
+  for (var i = 0; i < count; i++) {
+    tid = id_list[i];
+    if (toHide && tid.indexOf("p") !== -1) {
+      document.getElementById(tid).className = "hiddenRow";
+    } else {
+      document.getElementById(tid).className = "";
+    }
+    document.getElementById("div_" + tid).className = "hiddenRow";
+  }
+}
+
+function showTestDetail(div_id) {
+  var details_div = document.getElementById(div_id);
+  var className = details_div.className;
+  if (className != "") {
+    details_div.className = "";
+  } else {
+    details_div.className = "hiddenRow";
+  }
+}
+
+function html_escape(s) {
+  s = s.replace(/&/g, "&amp;");
+  s = s.replace(/</g, "&lt;");
+  s = s.replace(/>/g, "&gt;");
+  return s;
+}
+
+function load() {
+  var el_wrapper = document.getElementById('wrapper');
+  document.getElementById('lang-cn').onclick = function () { el_wrapper.className = 'lang-cn'; };
+  document.getElementById('lang-en').onclick = function () { el_wrapper.className = 'lang-en'; };
+
+  var h = (location.hash || '').replace(/#/, '');
+  var nav_lang;
+  if (h != 'cn' || h != 'en') {
+    el_wrapper.className = 'lang-' + h;
+  }
+
+  var imgs = document.getElementsByClassName("pic");
+  var lens = imgs.length;
+  var popup = document.getElementById("popup");
+  for (var i = 0; i < lens; i++) {
+    imgs[i].onclick = function (event) {
+      event = event || window.event;
+      var target = document.elementFromPoint(event.clientX, event.clientY);
+      showBig(target.src);
+    };
+  }
+  popup.onclick = function () {
+    popup.getElementsByTagName("img")[0].src = "";
+    popup.style.display = "none";
+    popup.style.zIndex = "-1";
+  };
+  function showBig(src) {
+    popup.getElementsByTagName("img")[0].src = src;
+    popup.style.display = "block";
+    popup.style.zIndex = "999999";
+  }
+}
+</script>
+</head>
+
+<body onload="load()">
+  <div id="wrapper" class="lang-cn">
+    <div id="lang">
+      <ul>
+        <li>
+          <a href="#cn" id="lang-cn" title="简体中文">cn</a>
+        </li>
+        <li>
+          <a href="#en" id="lang-en" title="English">en</a>
+        </li>
+      </ul>
+    </div>
+    <div class='heading'>
+  <h1>测试报告</h1>
+  <p class='attribute'>
+    <strong>
+      <span class="lang-cn">启动时间：</span>
+      <span class="lang-en">Start Time:</span>
+    </strong> 2018-07-12 11:43:05
+  </p>
+  <p class='attribute'>
+    <strong>
+      <span class="lang-cn">结束时间：</span>
+      <span class="lang-en">End Time:</span>
+    </strong> 2018-07-12 11:48:54
+  </p>
+  <p class='attribute'>
+    <strong>
+      <span class="lang-cn">运行时长：</span>
+      <span class="lang-en">Duration:</span>
+    </strong> 0:05:49.505000
+  </p>
+  <p class='attribute'>
+    <strong>
+      <span class="lang-cn">结果：</span>
+      <span class="lang-en">Status:</span>
+    </strong>
+    <span class="lang-cn">合计：</span>
+    <span class="lang-en">Total:</span>21&nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="lang-cn">通过：</span>
+    <span class="lang-en">Passed:</span>16&nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="lang-cn">失败：</span>
+    <span class="lang-en">Failed:</span>0&nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="lang-cn">错误：</span>
+    <span class="lang-en">Error:</span>5&nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="lang-cn">跳过：</span>
+    <span class="lang-en">Skipped:</span>0&nbsp;&nbsp;&nbsp;&nbsp;
+  </p>
+  <p class='description'>用例情况</p>
+</div> 
+<a href='report.log'>
+  <span class="lang-cn">下载日志文件</span>
+  <span class="lang-en">Download log file</span>
+</a>
+ 
+<p id='show_detail_line'>筛选
+  <a href='javascript:showCase(0)'>
+    <span class="lang-cn">摘要</span>
+    <span class="lang-en">Summary</span>
+  </a>
+  <a href='javascript:showCase(1)'>
+    <span class="lang-cn">通过</span>
+    <span class="lang-en">Pass</span>
+  </a>
+  <a href='javascript:showCase(2)'>
+    <span class="lang-cn">失败</span>
+    <span class="lang-en">Fail</span>
+  </a>
+  <a href='javascript:showCase(5)'>
+    <span class="lang-cn">异常</span>
+    <span class="lang-en">Error</span>
+  </a>
+  <a href='javascript:showCase(3)'>
+    <span class="lang-cn">跳过</span>
+    <span class="lang-en">Skip</span>
+  </a>
+  <a href='javascript:showCase(4)'>
+    <span class="lang-cn">全部</span>
+    <span class="lang-en">All</span>
+  </a>
+</p>
+<table id='result_table'>
+  <tr id='header_row'>
+    <th>
+      <span class="lang-cn">测试组/测试用例</span>
+      <span class="lang-en">Test Group/Test case</span>
+    </th>
+    <th>
+      <span class="lang-cn">计数</span>
+      <span class="lang-en">Count</span>
+    </th>
+    <th>
+      <span class="lang-cn">通过</span>
+      <span class="lang-en">Passed</span>
+    </th>
+    <th>
+      <span class="lang-cn">失败</span>
+      <span class="lang-en">Failed</span>
+    </th>
+    <th>
+      <span class="lang-cn">错误</span>
+      <span class="lang-en">Erroneous</span>
+    </th>
+    <th>
+      <span class="lang-cn">跳过</span>
+      <span class="lang-en">Skipped</span>
+    </th>
+    <th>
+      <span class="lang-cn">统计</span>
+      <span class="lang-en">Statistics</span>
+    </th>
+    <th>
+      <span class="lang-cn">查看</span>
+      <span class="lang-en">View</span>
+    </th>
+  </tr>
+  
+<tr class='errorClass'>
+  <td>test_web.RW.Batch_seach.TestSearch</td>
+  <td>21</td>
+  <td class="passCase">16</td>
+  <td class="failCase">0</td>
+  <td class="errorCase">5</td>
+  <td class="skipCase">0</td>
+  <td style="text-align:right;">76.19%</td>
+  <td>
+    <a href="javascript:showClassDetail('c1',21)">
+      <span class="lang-cn">细节</span>
+      <span class="lang-en">Detail</span>
+    </a>
+  </td>
+</tr>
+
+<tr id='pt1.1' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_05___Fanteeda_FD092_Women_Wrap_Around_Leather_Wrist_Watch_with_Chain______Blue____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.1' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.1: 
+[   INFO] [2018-07-12 11:43:05,071] [13400] [Result.py(48)] - 开始测试： test_search_05___Fanteeda_FD092_Women_Wrap_Around_Leather_Wrist_Watch_with_Chain______Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:43:45,342] [13400] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:43:46,269] [13400] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:44:19,145] [13400] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:44:19,280] [13400] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:44:20,937] [13400] [Result.py(106)] - 测试执行通过： test_search_05___Fanteeda_FD092_Women_Wrap_Around_Leather_Wrist_Watch_with_Chain______Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:44:20,937] [13400] [Result.py(59)] - 测试结束： test_search_05___Fanteeda_FD092_Women_Wrap_Around_Leather_Wrist_Watch_with_Chain______Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:44:20,937] [13400] [Result.py(61)] - 耗时： 75.86305764768004
+
+</pre>
+      <div>
+<img class="pic" src='images/image_13400_2018_07_12_11_44_19_187.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_13400_2018_07_12_11_44_19_198.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.2' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_04___Big_Dial_Calendar_Steel_Men_Business_Watch______Black____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.2' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.2: 
+[   INFO] [2018-07-12 11:43:05,071] [10356] [Result.py(48)] - 开始测试： test_search_04___Big_Dial_Calendar_Steel_Men_Business_Watch______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:43:42,569] [10356] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:43:44,981] [10356] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:44:26,338] [10356] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:44:26,608] [10356] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:44:31,926] [10356] [Result.py(106)] - 测试执行通过： test_search_04___Big_Dial_Calendar_Steel_Men_Business_Watch______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:44:31,926] [10356] [Result.py(59)] - 测试结束： test_search_04___Big_Dial_Calendar_Steel_Men_Business_Watch______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:44:31,926] [10356] [Result.py(61)] - 耗时： 86.852622475095
+
+</pre>
+      <div>
+<img class="pic" src='images/image_10356_2018_07_12_11_44_26_58.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_10356_2018_07_12_11_44_26_148.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.3' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_02___XR2599_Women_Fashion_Dial_Analog_Quartz_Silica_Gel_Band_Watch______White____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.3' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.3: 
+[   INFO] [2018-07-12 11:43:05,069] [4344] [Result.py(48)] - 开始测试： test_search_02___XR2599_Women_Fashion_Dial_Analog_Quartz_Silica_Gel_Band_Watch______White____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:43:43,566] [4344] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:43:46,274] [4344] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:44:30,309] [4344] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:44:30,458] [4344] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:44:33,740] [4344] [Result.py(106)] - 测试执行通过： test_search_02___XR2599_Women_Fashion_Dial_Analog_Quartz_Silica_Gel_Band_Watch______White____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:44:33,740] [4344] [Result.py(59)] - 测试结束： test_search_02___XR2599_Women_Fashion_Dial_Analog_Quartz_Silica_Gel_Band_Watch______White____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:44:33,740] [4344] [Result.py(61)] - 耗时： 88.66840249373966
+
+</pre>
+      <div>
+<img class="pic" src='images/image_4344_2018_07_12_11_44_29_106.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_4344_2018_07_12_11_44_30_453.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.4' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_03___Pair_of_Crisscross_Rhinestone_Faux_Pearl_Earrings______Golden____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.4' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.4: 
+[   INFO] [2018-07-12 11:43:05,070] [12824] [Result.py(48)] - 开始测试： test_search_03___Pair_of_Crisscross_Rhinestone_Faux_Pearl_Earrings______Golden____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:43:45,607] [12824] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:43:46,252] [12824] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:44:31,702] [12824] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:44:31,845] [12824] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:44:40,136] [12824] [Result.py(106)] - 测试执行通过： test_search_03___Pair_of_Crisscross_Rhinestone_Faux_Pearl_Earrings______Golden____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:44:40,136] [12824] [Result.py(59)] - 测试结束： test_search_03___Pair_of_Crisscross_Rhinestone_Faux_Pearl_Earrings______Golden____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:44:40,136] [12824] [Result.py(61)] - 耗时： 95.06391539198383
+
+</pre>
+      <div>
+<img class="pic" src='images/image_12824_2018_07_12_11_44_31_805.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_12824_2018_07_12_11_44_31_66.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.5' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_06___Fashion_Creative_Music_Symbols_Drop_Earrings_Charm_Jewelry______Silver____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.5' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.5: 
+[   INFO] [2018-07-12 11:44:20,937] [13400] [Result.py(48)] - 开始测试： test_search_06___Fashion_Creative_Music_Symbols_Drop_Earrings_Charm_Jewelry______Silver____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:44:38,789] [13400] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:44:39,209] [13400] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:44:50,705] [13400] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:44:50,820] [13400] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:45:10,520] [13400] [Result.py(106)] - 测试执行通过： test_search_06___Fashion_Creative_Music_Symbols_Drop_Earrings_Charm_Jewelry______Silver____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:10,521] [13400] [Result.py(59)] - 测试结束： test_search_06___Fashion_Creative_Music_Symbols_Drop_Earrings_Charm_Jewelry______Silver____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:10,521] [13400] [Result.py(61)] - 耗时： 49.58252957899376
+
+</pre>
+      <div>
+<img class="pic" src='images/image_13400_2018_07_12_11_44_50_323.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_13400_2018_07_12_11_44_50_425.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='et1.6' class='none'>
+  <td class='errorCase'  colspan='7'>
+    <div class='testcase'>test_search_01___Men_Faux_Leather_Blue_Ray_Glass_Quartz_Analog_Watches_Brown______Black_White____1__</div>
+  </td>
+  <td class='errorCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_et1.6')">error</a>
+  </td>
+</tr>
+<tr id='div_et1.6' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_et1.6').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+et1.6: 
+[   INFO] [2018-07-12 11:43:05,069] [10644] [Result.py(48)] - 开始测试： test_search_01___Men_Faux_Leather_Blue_Ray_Glass_Quartz_Analog_Watches_Brown______Black_White____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:43:43,228] [10644] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:43:43,899] [10644] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:44:57,559] [10644] [Batch_seach.py(28)] - 退出浏览器
+[  ERROR] [2018-07-12 11:45:16,172] [10644] [Result.py(125)] - 测试产生错误： test_search_01___Men_Faux_Leather_Blue_Ray_Glass_Quartz_Analog_Watches_Brown______Black_White____1__ (test_web.RW.Batch_seach.TestSearch)
+Traceback (most recent call last):
+  File "D:\java\python3.6\lib\site-packages\ddt.py", line 144, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\java\Python\py_workspace\test_web\RW\Batch_seach.py", line 47, in test_search
+    element = self.driver.find_element_by_xpath(xpath)
+  File "D:\java\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 387, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\java\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 957, in find_element
+    'value': value})['value']
+  File "D:\java\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "D:\java\python3.6\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .//*[@class='proList clearfix mt40 w1000']//h3/a
+
+
+[   INFO] [2018-07-12 11:45:16,172] [10644] [Result.py(59)] - 测试结束： test_search_01___Men_Faux_Leather_Blue_Ray_Glass_Quartz_Analog_Watches_Brown______Black_White____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:16,172] [10644] [Result.py(61)] - 耗时： 131.10042357901813
+
+</pre>
+      <div>
+<img class="pic" src='images/image_10644_2018_07_12_11_44_17_783.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_10644_2018_07_12_11_44_57_470.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.7' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_08___Ethnic_Triangle_Tassel_Drop_Earrings______Black____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.7')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.7' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.7').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.7: 
+[   INFO] [2018-07-12 11:44:33,740] [4344] [Result.py(48)] - 开始测试： test_search_08___Ethnic_Triangle_Tassel_Drop_Earrings______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:03,799] [4344] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:45:04,174] [4344] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:45:28,205] [4344] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:45:28,357] [4344] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:45:39,825] [4344] [Result.py(106)] - 测试执行通过： test_search_08___Ethnic_Triangle_Tassel_Drop_Earrings______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:39,826] [4344] [Result.py(59)] - 测试结束： test_search_08___Ethnic_Triangle_Tassel_Drop_Earrings______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:39,826] [4344] [Result.py(61)] - 耗时： 66.08398503037618
+
+</pre>
+      <div>
+<img class="pic" src='images/image_4344_2018_07_12_11_45_27_362.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_4344_2018_07_12_11_45_28_179.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.8' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_07___Vintage_Water_Drop_Shape_Faux_Sapphire_Necklace_Earrings_Set______Blue____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.8')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.8' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.8').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.8: 
+[   INFO] [2018-07-12 11:44:31,926] [10356] [Result.py(48)] - 开始测试： test_search_07___Vintage_Water_Drop_Shape_Faux_Sapphire_Necklace_Earrings_Set______Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:06,144] [10356] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:45:06,496] [10356] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:45:32,909] [10356] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:45:33,041] [10356] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:45:50,510] [10356] [Result.py(106)] - 测试执行通过： test_search_07___Vintage_Water_Drop_Shape_Faux_Sapphire_Necklace_Earrings_Set______Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:50,510] [10356] [Result.py(59)] - 测试结束： test_search_07___Vintage_Water_Drop_Shape_Faux_Sapphire_Necklace_Earrings_Set______Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:50,510] [10356] [Result.py(61)] - 耗时： 78.58199160412748
+
+</pre>
+      <div>
+<img class="pic" src='images/image_10356_2018_07_12_11_45_32_402.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_10356_2018_07_12_11_45_33_596.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.9' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_09___geneva_Fashion_Trendy_Stainless_Steel_Band_Men_Watch______Dodger_Blue____2__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.9')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.9' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.9').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.9: 
+[   INFO] [2018-07-12 11:44:40,136] [12824] [Result.py(48)] - 开始测试： test_search_09___geneva_Fashion_Trendy_Stainless_Steel_Band_Men_Watch______Dodger_Blue____2__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:12,664] [12824] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:45:13,039] [12824] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:45:29,347] [12824] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:45:51,531] [12824] [Result.py(106)] - 测试执行通过： test_search_09___geneva_Fashion_Trendy_Stainless_Steel_Band_Men_Watch______Dodger_Blue____2__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:51,531] [12824] [Result.py(59)] - 测试结束： test_search_09___geneva_Fashion_Trendy_Stainless_Steel_Band_Men_Watch______Dodger_Blue____2__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:51,531] [12824] [Result.py(61)] - 耗时： 71.39303507005864
+
+</pre>
+      <div>
+<img class="pic" src='images/image_12824_2018_07_12_11_45_29_188.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_12824_2018_07_12_11_45_29_300.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='et1.10' class='none'>
+  <td class='errorCase'  colspan='7'>
+    <div class='testcase'>test_search_11___1PC_Random_Shape_Irregular_Paint_Splatter_Stone_Necklace____1__</div>
+  </td>
+  <td class='errorCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_et1.10')">error</a>
+  </td>
+</tr>
+<tr id='div_et1.10' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_et1.10').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+et1.10: 
+[   INFO] [2018-07-12 11:45:16,172] [10644] [Result.py(48)] - 开始测试： test_search_11___1PC_Random_Shape_Irregular_Paint_Splatter_Stone_Necklace____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:48,633] [10644] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:45:50,382] [10644] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:45:50,407] [10644] [Batch_seach.py(28)] - 退出浏览器
+[  ERROR] [2018-07-12 11:45:57,460] [10644] [Result.py(125)] - 测试产生错误： test_search_11___1PC_Random_Shape_Irregular_Paint_Splatter_Stone_Necklace____1__ (test_web.RW.Batch_seach.TestSearch)
+Traceback (most recent call last):
+  File "D:\java\python3.6\lib\site-packages\ddt.py", line 144, in wrapper
+    return func(self, *args, **kwargs)
+TypeError: test_search() missing 1 required positional argument: 'type'
+
+[   INFO] [2018-07-12 11:45:57,460] [10644] [Result.py(59)] - 测试结束： test_search_11___1PC_Random_Shape_Irregular_Paint_Splatter_Stone_Necklace____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:57,460] [10644] [Result.py(61)] - 耗时： 41.28688945306209
+
+</pre>
+      <div>
+<img class="pic" src='images/image_10644_2018_07_12_11_45_50_368.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.11' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_10___Fanteeda_FD093_Women_Wrap_Round_Rhinestones_Quartz_Watch______Black____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.11')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.11' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.11').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.11: 
+[   INFO] [2018-07-12 11:45:10,521] [13400] [Result.py(48)] - 开始测试： test_search_10___Fanteeda_FD093_Women_Wrap_Round_Rhinestones_Quartz_Watch______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:45:47,847] [13400] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:45:48,212] [13400] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:46:00,410] [13400] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:46:00,533] [13400] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:46:14,290] [13400] [Result.py(106)] - 测试执行通过： test_search_10___Fanteeda_FD093_Women_Wrap_Round_Rhinestones_Quartz_Watch______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:46:14,290] [13400] [Result.py(59)] - 测试结束： test_search_10___Fanteeda_FD093_Women_Wrap_Round_Rhinestones_Quartz_Watch______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:46:14,291] [13400] [Result.py(61)] - 耗时： 63.76761731348762
+
+</pre>
+      <div>
+<img class="pic" src='images/image_13400_2018_07_12_11_45_59_288.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_13400_2018_07_12_11_46_00_630.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.12' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_14___Vintage_Sterling_Silver_Water_Drop_Hook_Earrings______Silver____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.12')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.12' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.12').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.12: 
+[   INFO] [2018-07-12 11:45:51,531] [12824] [Result.py(48)] - 开始测试： test_search_14___Vintage_Sterling_Silver_Water_Drop_Hook_Earrings______Silver____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:46:17,602] [12824] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:46:17,968] [12824] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:46:47,496] [12824] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:46:47,728] [12824] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:47:08,940] [12824] [Result.py(106)] - 测试执行通过： test_search_14___Vintage_Sterling_Silver_Water_Drop_Hook_Earrings______Silver____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:08,940] [12824] [Result.py(59)] - 测试结束： test_search_14___Vintage_Sterling_Silver_Water_Drop_Hook_Earrings______Silver____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:08,940] [12824] [Result.py(61)] - 耗时： 77.40731305774392
+
+</pre>
+      <div>
+<img class="pic" src='images/image_12824_2018_07_12_11_46_46_598.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_12824_2018_07_12_11_46_47_371.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.13' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_12___Unique_Cube_Block_Style_Crystal_Ear_Hooks_Earrings_for_Women______Silver____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.13')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.13' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.13').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.13: 
+[   INFO] [2018-07-12 11:45:39,826] [4344] [Result.py(48)] - 开始测试： test_search_12___Unique_Cube_Block_Style_Crystal_Ear_Hooks_Earrings_for_Women______Silver____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:46:10,225] [4344] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:46:10,559] [4344] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:46:45,283] [4344] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:46:50,412] [4344] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:47:09,029] [4344] [Result.py(106)] - 测试执行通过： test_search_12___Unique_Cube_Block_Style_Crystal_Ear_Hooks_Earrings_for_Women______Silver____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:09,029] [4344] [Result.py(59)] - 测试结束： test_search_12___Unique_Cube_Block_Style_Crystal_Ear_Hooks_Earrings_for_Women______Silver____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:09,029] [4344] [Result.py(61)] - 耗时： 89.2008259855013
+
+</pre>
+      <div>
+<img class="pic" src='images/image_4344_2018_07_12_11_46_44_354.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_4344_2018_07_12_11_46_50_177.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.14' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_13___Faux_Turquoise_Drop_Earrings______Green____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.14')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.14' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.14').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.14: 
+[   INFO] [2018-07-12 11:45:50,510] [10356] [Result.py(48)] - 开始测试： test_search_13___Faux_Turquoise_Drop_Earrings______Green____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:46:16,383] [10356] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:46:16,755] [10356] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:46:53,848] [10356] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:46:53,964] [10356] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:47:09,489] [10356] [Result.py(106)] - 测试执行通过： test_search_13___Faux_Turquoise_Drop_Earrings______Green____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:09,489] [10356] [Result.py(59)] - 测试结束： test_search_13___Faux_Turquoise_Drop_Earrings______Green____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:09,489] [10356] [Result.py(61)] - 耗时： 78.97713366221336
+
+</pre>
+      <div>
+<img class="pic" src='images/image_10356_2018_07_12_11_46_53_741.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_10356_2018_07_12_11_46_53_763.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.15' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_15___1PC_Rhinestone_Double_Star_Earring______Champagne____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.15')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.15' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.15').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.15: 
+[   INFO] [2018-07-12 11:45:57,460] [10644] [Result.py(48)] - 开始测试： test_search_15___1PC_Rhinestone_Double_Star_Earring______Champagne____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:46:29,719] [10644] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:46:30,720] [10644] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:47:00,910] [10644] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:47:01,086] [10644] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:47:09,831] [10644] [Result.py(106)] - 测试执行通过： test_search_15___1PC_Rhinestone_Double_Star_Earring______Champagne____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:09,831] [10644] [Result.py(59)] - 测试结束： test_search_15___1PC_Rhinestone_Double_Star_Earring______Champagne____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:09,831] [10644] [Result.py(61)] - 耗时： 72.36926248361536
+
+</pre>
+      <div>
+<img class="pic" src='images/image_10644_2018_07_12_11_47_00_233.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_10644_2018_07_12_11_47_01_616.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.16' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_16___Crystal_Heart_and_Ring_Pendant_Necklace______Light_Blue____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.16')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.16' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.16').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.16: 
+[   INFO] [2018-07-12 11:46:14,291] [13400] [Result.py(48)] - 开始测试： test_search_16___Crystal_Heart_and_Ring_Pendant_Necklace______Light_Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:01,976] [13400] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:47:03,320] [13400] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:47:12,518] [13400] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:47:12,647] [13400] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:47:19,993] [13400] [Result.py(106)] - 测试执行通过： test_search_16___Crystal_Heart_and_Ring_Pendant_Necklace______Light_Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:19,993] [13400] [Result.py(59)] - 测试结束： test_search_16___Crystal_Heart_and_Ring_Pendant_Necklace______Light_Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:19,993] [13400] [Result.py(61)] - 耗时： 65.70036756803924
+
+</pre>
+      <div>
+<img class="pic" src='images/image_13400_2018_07_12_11_47_12_28.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_13400_2018_07_12_11_47_12_247.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='et1.17' class='none'>
+  <td class='errorCase'  colspan='7'>
+    <div class='testcase'>test_search_19___Fashionable_Bowknot_Fine_Zircon_Earrings_ERZ0028____1__</div>
+  </td>
+  <td class='errorCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_et1.17')">error</a>
+  </td>
+</tr>
+<tr id='div_et1.17' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_et1.17').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+et1.17: 
+[   INFO] [2018-07-12 11:47:09,489] [10356] [Result.py(48)] - 开始测试： test_search_19___Fashionable_Bowknot_Fine_Zircon_Earrings_ERZ0028____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:40,335] [10356] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:47:41,635] [10356] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:47:41,696] [10356] [Batch_seach.py(28)] - 退出浏览器
+[  ERROR] [2018-07-12 11:47:53,187] [10356] [Result.py(125)] - 测试产生错误： test_search_19___Fashionable_Bowknot_Fine_Zircon_Earrings_ERZ0028____1__ (test_web.RW.Batch_seach.TestSearch)
+Traceback (most recent call last):
+  File "D:\java\python3.6\lib\site-packages\ddt.py", line 144, in wrapper
+    return func(self, *args, **kwargs)
+TypeError: test_search() missing 1 required positional argument: 'type'
+
+[   INFO] [2018-07-12 11:47:53,187] [10356] [Result.py(59)] - 测试结束： test_search_19___Fashionable_Bowknot_Fine_Zircon_Earrings_ERZ0028____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:53,187] [10356] [Result.py(61)] - 耗时： 43.696885006829774
+
+</pre>
+      <div>
+<img class="pic" src='images/image_10356_2018_07_12_11_47_41_159.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='et1.18' class='none'>
+  <td class='errorCase'  colspan='7'>
+    <div class='testcase'>test_search_18___Zircon_Cube_Earrings_ERZ00____1__</div>
+  </td>
+  <td class='errorCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_et1.18')">error</a>
+  </td>
+</tr>
+<tr id='div_et1.18' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_et1.18').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+et1.18: 
+[   INFO] [2018-07-12 11:47:09,029] [4344] [Result.py(48)] - 开始测试： test_search_18___Zircon_Cube_Earrings_ERZ00____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:40,642] [4344] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:47:41,658] [4344] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:47:41,716] [4344] [Batch_seach.py(28)] - 退出浏览器
+[  ERROR] [2018-07-12 11:47:53,205] [4344] [Result.py(125)] - 测试产生错误： test_search_18___Zircon_Cube_Earrings_ERZ00____1__ (test_web.RW.Batch_seach.TestSearch)
+Traceback (most recent call last):
+  File "D:\java\python3.6\lib\site-packages\ddt.py", line 144, in wrapper
+    return func(self, *args, **kwargs)
+TypeError: test_search() missing 1 required positional argument: 'type'
+
+[   INFO] [2018-07-12 11:47:53,205] [4344] [Result.py(59)] - 测试结束： test_search_18___Zircon_Cube_Earrings_ERZ00____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:53,205] [4344] [Result.py(61)] - 耗时： 44.175135039069744
+
+</pre>
+      <div>
+<img class="pic" src='images/image_4344_2018_07_12_11_47_41_50.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.19' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_20___geneva_Fashion_Trendy_Stainless_Steel_Band_Men_Watch______Dodger_Blue____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.19')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.19' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.19').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.19: 
+[   INFO] [2018-07-12 11:47:09,831] [10644] [Result.py(48)] - 开始测试： test_search_20___geneva_Fashion_Trendy_Stainless_Steel_Band_Men_Watch______Dodger_Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:40,337] [10644] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:47:41,640] [10644] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:47:59,154] [10644] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:47:59,299] [10644] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:48:00,838] [10644] [Result.py(106)] - 测试执行通过： test_search_20___geneva_Fashion_Trendy_Stainless_Steel_Band_Men_Watch______Dodger_Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:48:00,839] [10644] [Result.py(59)] - 测试结束： test_search_20___geneva_Fashion_Trendy_Stainless_Steel_Band_Men_Watch______Dodger_Blue____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:48:00,839] [10644] [Result.py(61)] - 耗时： 51.006126561715064
+
+</pre>
+      <div>
+<img class="pic" src='images/image_10644_2018_07_12_11_47_58_1.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_10644_2018_07_12_11_47_59_82.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='pt1.20' class='none'>
+  <td class='passCase'  colspan='7'>
+    <div class='testcase'>test_search_17___Faux_Gem_Circle_Drop_Earrings______Golden____1__</div>
+  </td>
+  <td class='passCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.20')">pass</a>
+  </td>
+</tr>
+<tr id='div_pt1.20' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.20').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+pt1.20: 
+[   INFO] [2018-07-12 11:47:08,940] [12824] [Result.py(48)] - 开始测试： test_search_17___Faux_Gem_Circle_Drop_Earrings______Golden____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:40,318] [12824] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:47:41,545] [12824] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:48:04,699] [12824] [Batch_seach.py(50)] - 搜素商品OK
+[   INFO] [2018-07-12 11:48:04,922] [12824] [Batch_seach.py(28)] - 退出浏览器
+[   INFO] [2018-07-12 11:48:06,875] [12824] [Result.py(106)] - 测试执行通过： test_search_17___Faux_Gem_Circle_Drop_Earrings______Golden____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:48:06,875] [12824] [Result.py(59)] - 测试结束： test_search_17___Faux_Gem_Circle_Drop_Earrings______Golden____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:48:06,875] [12824] [Result.py(61)] - 耗时： 57.93334757667503
+
+</pre>
+      <div>
+<img class="pic" src='images/image_12824_2018_07_12_11_48_04_261.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_12824_2018_07_12_11_48_04_313.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+<tr id='et1.21' class='none'>
+  <td class='errorCase'  colspan='7'>
+    <div class='testcase'>test_search_21___Black_Montres_Pour_Homme_Colck_Style_Watch_Stainless_Steel_Leather_Strap_Man_Quartz_Analog_Wrist_Watch______Black____1__</div>
+  </td>
+  <td class='errorCase' align='center'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_et1.21')">error</a>
+  </td>
+</tr>
+<tr id='div_et1.21' class="hiddenRow">
+  <td colspan='8'>
+    <div class="popup_window">
+      <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_et1.21').className = 'hiddenRow' ">[x]</a>
+      </div>
+      <pre>
+et1.21: 
+[   INFO] [2018-07-12 11:47:19,993] [13400] [Result.py(48)] - 开始测试： test_search_21___Black_Montres_Pour_Homme_Colck_Style_Watch_Stainless_Steel_Leather_Strap_Man_Quartz_Analog_Wrist_Watch______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:47:50,310] [13400] [common_driver.py(23)] - 打开浏览器
+[   INFO] [2018-07-12 11:47:50,639] [13400] [common_driver.py(26)] - 浏览器最大化
+[   INFO] [2018-07-12 11:48:52,362] [13400] [Batch_seach.py(28)] - 退出浏览器
+[  ERROR] [2018-07-12 11:48:54,571] [13400] [Result.py(125)] - 测试产生错误： test_search_21___Black_Montres_Pour_Homme_Colck_Style_Watch_Stainless_Steel_Leather_Strap_Man_Quartz_Analog_Wrist_Watch______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+Traceback (most recent call last):
+  File "D:\java\python3.6\lib\site-packages\ddt.py", line 144, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\java\Python\py_workspace\test_web\RW\Batch_seach.py", line 47, in test_search
+    element = self.driver.find_element_by_xpath(xpath)
+  File "D:\java\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 387, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\java\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 957, in find_element
+    'value': value})['value']
+  File "D:\java\python3.6\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "D:\java\python3.6\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .//*[@class='proList clearfix mt40 w1000']//h3/a
+
+
+[   INFO] [2018-07-12 11:48:54,572] [13400] [Result.py(59)] - 测试结束： test_search_21___Black_Montres_Pour_Homme_Colck_Style_Watch_Stainless_Steel_Leather_Strap_Man_Quartz_Analog_Wrist_Watch______Black____1__ (test_web.RW.Batch_seach.TestSearch)
+[   INFO] [2018-07-12 11:48:54,572] [13400] [Result.py(61)] - 耗时： 94.57651946622113
+
+</pre>
+      <div>
+<img class="pic" src='images/image_13400_2018_07_12_11_48_12_407.jpg' alt='' title='' />
+
+<img class="pic" src='images/image_13400_2018_07_12_11_48_52_543.jpg' alt='' title='' />
+</div>
+    </div>
+  </td>
+</tr>
+
+  <tr id='total_row'>
+    <td>
+    <span class="lang-cn">合计</span>
+    <span class="lang-en">Total</span>
+    </td>
+    <td>21</td>
+    <td class="passCase">16</td>
+    <td class="failCase">0</td>
+    <td class="errorCase">5</td>
+    <td class="skipCase">0</td>
+    <td style="text-align:right;">76.19%</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+ <div id='ending'>&nbsp;</div>
+    <div id="popup">
+      <div class="bg">
+        <img src="" alt="" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
