@@ -74,6 +74,7 @@ element.click()
 element = browser.find_element_by_id('i1')
 element.clear()
 element.send_keys('123')
+# 拼接等价于"4a"
 element.send_keys('4', 'a')
 
 # ===============================================================
